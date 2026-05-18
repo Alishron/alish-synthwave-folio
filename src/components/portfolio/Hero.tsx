@@ -3,7 +3,13 @@ import { useEffect, useState } from "react";
 import { ArrowRight, Download, Code2, Cpu, Database, Eye, Github } from "lucide-react";
 import heroChar from "@/assets/hero-character.png";
 
-const roles = ["AI Engineer", "Full Stack Developer", "Computer Vision Enthusiast"];
+const roles = [
+  "AI & ML Engineer",
+  "Full Stack Developer",
+  "Web Developer",
+  "Android App Developer",
+  "Backend Systems Builder",
+];
 
 function Typewriter() {
   const [text, setText] = useState("");
@@ -59,7 +65,7 @@ export function Hero() {
             className="glass inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs text-muted-foreground mb-6"
           >
             <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-            Available for opportunities · B.Tech Final Year
+            Open to Software Engineering Opportunities • B.Tech Graduate • NITK Surathkal
           </motion.div>
 
           <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight">
@@ -71,11 +77,11 @@ export function Hero() {
             <Typewriter />
           </p>
 
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-            I craft intelligent systems and beautiful interfaces — blending deep learning,
-            computer vision, and modern full-stack engineering to build products that feel
-            effortless and look unforgettable.
-          </p>
+        <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
+  Passionate about building intelligent AI systems and modern digital experiences,
+  I work across full-stack web development and Android apps to
+  create scalable products that are both impactful and visually refined.
+</p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <motion.a
@@ -110,7 +116,7 @@ export function Hero() {
             </div>
             <div className="h-8 w-px bg-border" />
             <div>
-              <div className="font-display text-2xl font-bold gradient-text">3+</div>
+              <div className="font-display text-2xl font-bold gradient-text">2+</div>
               <div className="text-xs text-muted-foreground">Years coding</div>
             </div>
             <div className="h-8 w-px bg-border" />

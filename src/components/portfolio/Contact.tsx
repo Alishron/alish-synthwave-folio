@@ -94,9 +94,9 @@ export function Contact() {
             className="md:col-span-2 space-y-3"
           >
             {[
-              { Icon: Mail, label: "Email", value: "alish@example.com", href: "mailto:alish@example.com" },
-              { Icon: Github, label: "GitHub", value: "@alishsahdev", href: "https://github.com" },
-              { Icon: Linkedin, label: "LinkedIn", value: "Alish Sahdev", href: "https://linkedin.com" },
+              { Icon: Mail, label: "Email", value: "sahdevalish0@gmail.com", href: "mailto:sahdevalish0@gmail.com" },
+              { Icon: Github, label: "GitHub", value: "@Alishron", href: "https://github.com/Alishron" },
+              { Icon: Linkedin, label: "LinkedIn", value: "Alish Sahdev", href: "https://www.linkedin.com/in/alishron1322/" },
             ].map(({ Icon, label, value, href }) => (
               <a
                 key={label}
@@ -113,13 +113,7 @@ export function Contact() {
                 </div>
               </a>
             ))}
-            <div className="glass rounded-2xl p-5">
-              <div className="text-xs uppercase tracking-wider text-primary mb-2 font-mono">Status</div>
-              <div className="flex items-center gap-2 text-sm">
-                <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                Open to opportunities — Summer & Fall 2026
-              </div>
-            </div>
+          
           </motion.div>
         </div>
       </div>

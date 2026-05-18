@@ -3,22 +3,17 @@ import { SectionHeading } from "./SectionHeading";
 
 const timeline = [
   {
-    period: "2025 — Present",
-    role: "AI Engineering Intern",
-    org: "Stealth Startup",
-    desc: "Building multi-agent LangGraph pipelines, fine-tuning vision models, and shipping end-to-end AI features in production.",
+    period: "May 2025 — July 2025",
+    role: "Software Engineering Intern",
+    org: "Tech Mahindra",
+    desc: "Developed a full-stack onboarding and offboarding management system used by 48+ application teams using React.js, Node.js, Express.js, and PostgreSQL with secure RBAC-based workflows.",
   },
-  {
-    period: "2024 — 2025",
-    role: "Full Stack Developer",
-    org: "Freelance & Open Source",
-    desc: "Designed and shipped premium React + FastAPI products for early-stage founders. Focus on DX, performance, and polish.",
-  },
+
   {
     period: "2022 — 2026",
-    role: "B.Tech, Computer Science",
-    org: "NIT Karnataka",
-    desc: "Coursework in ML, distributed systems and HCI. Active in dev community, hackathons, and AI research circles.",
+    role: "B.Tech in Electrical & Electronics Engineering",
+    org: "NITK Surathkal",
+    desc: "Focused on software engineering, machine learning, backend systems, AI infrastructure, and modern application development while actively building real-world technical projects.",
   },
 ];
 

@@ -37,14 +37,6 @@ const projects: Project[] = [
     gradient: "from-emerald-500/40 via-teal-500/20 to-transparent",
     size: "md",
   },
-  {
-    title: "Portfolio Website",
-    tagline: "This site, end-to-end",
-    desc: "A design-led personal portfolio with cinematic motion, glassmorphism and a futuristic AI aesthetic.",
-    stack: ["React", "TypeScript", "Tailwind", "Motion"],
-    gradient: "from-amber-500/40 via-orange-500/20 to-transparent",
-    size: "lg",
-  },
 ];
 
 function ProjectCard({ project }: { project: Project }) {

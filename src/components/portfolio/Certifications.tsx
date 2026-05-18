@@ -3,12 +3,9 @@ import { Award } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 
 const certs = [
-  { title: "Deep Learning Specialization", org: "DeepLearning.AI", year: "2024" },
+  { title: "A2Z Machine Learning", org: "Udemy", year: "2025" },
   { title: "LangChain & LangGraph", org: "LangChain Academy", year: "2025" },
-  { title: "Full Stack Open", org: "University of Helsinki", year: "2024" },
-  { title: "Computer Vision Nanodegree", org: "Udacity", year: "2023" },
-  { title: "AWS Cloud Practitioner", org: "Amazon Web Services", year: "2024" },
-  { title: "PostgreSQL for Developers", org: "Crunchy Data", year: "2025" },
+  { title: "A2Z Android Development", org: "Udemy", year: "2024" },
 ];
 
 export function Certifications() {
