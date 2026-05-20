@@ -16,9 +16,7 @@ export function Footer() {
         <p className="text-xs text-muted-foreground">
           © {new Date().getFullYear()} Alish Sahdev — Crafted with care.
         </p>
-        <p className="text-xs text-muted-foreground">
-          Built with <span className="text-foreground">Next.js</span> & <span className="text-foreground">TypeScript</span>
-        </p>
+        
       </div>
     </footer>
   );
