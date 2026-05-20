@@ -98,7 +98,9 @@ export function Hero() {
             </motion.a>
 
             <motion.a
-              href="#"
+              href="https://drive.google.com/file/d/1W6XO1RC0Y_9A7ynXyMVif5NHz-shtW4s/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.98 }}
               data-cursor-hover
