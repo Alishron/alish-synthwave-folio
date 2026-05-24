@@ -1,8 +1,4 @@
-@import "tailwindcss" source(none);
-@source "../src";
-@import "tw-animate-css";
-
-@custom-variant dark (&:is(.dark *));
+@import "tailwindcss";
 
 @theme inline {
   --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
