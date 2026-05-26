@@ -136,20 +136,6 @@ export function Hero() {
           transition={{ duration: 0.85, ease: "easeOut" }}
           className="relative z-10"
         >
-          {/* Status badge */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.25 }}
-            className="inline-flex items-center gap-2 mb-6 px-3 py-1.5 text-[11px] font-mono
-                       border border-primary/25 bg-primary/5 text-primary/70"
-            style={{ clipPath: bevel(6) }}
-          >
-            <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            <span className="text-emerald-400 font-semibold">[ONLINE]</span>
-            <span className="text-primary/30 mx-1">|</span>
-            Open to Opportunities · B.Tech · NITK Surathkal
-          </motion.div>
 
           {/* ── Name + glitch effect ───────────────────────────────────── */}
           <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight">
@@ -448,7 +434,7 @@ export function Hero() {
               style={{ clipPath: bevel(5) }}
             >
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
-              SYSTEM ONLINE · NITK SURATHKAL
+              SYSTEM ONLINE
             </motion.div>
           </motion.div>
         </motion.div>
