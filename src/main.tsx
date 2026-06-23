@@ -14,6 +14,7 @@ import { Projects } from "@/components/portfolio/Projects";
 import { Certifications } from "@/components/portfolio/Certifications";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
+import { Programming } from "@/components/portfolio/Programming";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Skills />
         <Experience />
         <Projects />
+        <Programming />
         <Certifications />
         <Contact />
       </main>
