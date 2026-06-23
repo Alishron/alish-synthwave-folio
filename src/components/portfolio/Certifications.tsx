@@ -4,8 +4,12 @@ import { SectionHeading } from "./SectionHeading";
 
 const certs = [
   { title: "A2Z Machine Learning", org: "Udemy", year: "2025" },
+  { title: "Introduction to MCP", org: "Anthropic", year: "2025" },
+    {title: "Data Analysis with Python", org: "CognitiveClass.ai", year: "2024" },
   { title: "LangChain & LangGraph", org: "LangChain Academy", year: "2025" },
   { title: "A2Z Android Development", org: "Udemy", year: "2024" },
+   { title: "Introduction to Agent Skill", org: "Anthropic", year: "2024" },
+
 ];
 
 export function Certifications() {
