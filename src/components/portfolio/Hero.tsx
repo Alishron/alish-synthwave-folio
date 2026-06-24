@@ -235,7 +235,7 @@ export function Hero() {
           >
             {[
               { value: "10+", label: "PROJECTS" },
-              { value: "2+",  label: "YRS_EXP"  },
+              { value: "1+",  label: "YRS_EXP"  },
               { value: "∞",   label: "CURIOSITY" },
             ].map((s, i) => (
               <div
